@@ -1,0 +1,79 @@
+.Home {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .countdown-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .countdown-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .countdown-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .countdown-timer {
+    margin-bottom: 20px;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-container input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .input-container button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .blob1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; /* Ensure the blob is above the text */
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+  }
+  
+  .blob2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Ensure the blob is above the text */
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+  }
+  
